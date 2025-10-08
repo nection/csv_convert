@@ -1,0 +1,23 @@
+csv_convert.page:
+  path: '/csv/gestio'
+  defaults:
+    _controller: '\Drupal\csv_convert\Controller\CsvController::showPage'
+    _title: 'Gestió de CSVs'
+  requirements:
+    _permission: 'access content'
+
+csv_convert.download_excel:
+  path: '/csv/download-excel'
+  defaults:
+    _controller: '\Drupal\csv_convert\Controller\CsvController::downloadExcel'
+    _title: 'Descarregar Excel'
+  requirements:
+    _permission: 'access content'
+
+csv_convert.download_csv:
+  path: '/csv/download-csv'
+  defaults:
+    _controller: '\Drupal\csv_convert\Controller\CsvController::downloadCsv'
+    _title: 'Descarregar CSV'
+  requirements:
+    _permission: 'access content'
