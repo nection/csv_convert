@@ -1,0 +1,6 @@
+{
+    "name": "nection/csv_convert",
+    "type": "drupal-module",
+    "description": "Mòdul personalitzat csv_convert",
+    "license": "GPL-2.0-or-later"
+}
